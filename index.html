@@ -8,63 +8,67 @@
     <title>AgenciaDev</title>
 </head>
 <body>
-    <header>
-        <div class="d-flex align-items-center flex-wrap" id="header-zone" style="height: 9rem;">
-            <div>
-                <h3 id="titulo">Young Miko</h3>
-            </div>
-         </div>
+    <header class="align-items-center d-flex justify-content-around">
+         <h1>Young Miko</h1>  
          
-        <div class="container d-flex justify-content-center flex-wrap">
-            <div class="d-flex justify-content-center py-3">
-             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link" id="a">Proyectos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link active" id="btn-inicio" aria-current="page">Inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link" id="a">Quienes somos</a></li>
-             </ul>
-            </div>
-      </div>
+         <div class=" py-3">
+            <ul class="nav nav-pills">
+               <li class="nav-item"><a href="#" class="nav-link active" id="btn-inicio" aria-current="page">Inicio</a></li>
+               <li class="nav-item"><a href="#" class="nav-link" id="a">Proyectos</a></li>
+               <li class="nav-item"><a href="#" class="nav-link" id="a">Quienes somos</a></li>
+            </ul>
+           </div>
     </header>
 
+
+
+    <div id="welcomeSec-Conteiner">
+     <div class="container d-flex justify-content-center align-items-center" id="slogan-Conteiner">
+        <h2 id="slogan">Eleva tu presencia en línea con nuestro desarrollo web, convirtiendo visitantes en clientes.</h2>
+     </div>
+    </div>
+
     
-    <dir class="container" id="secWeb">  
+
+    <div class="container" id="secWeb">  
         <h2 class="text-center" id="secWeb-titulo">Por qué tener una Página Web?</h2>
         <hr>
-      <div class="d-flex justify-content-center flex-wrap" id="secWeb-contenedor">
+      <div class="d-flex justify-content-around flex-wrap" id="secWeb-contenedor">
         <div style="width: 30rem;" class="d-flex align-items-center">
-            <p id="secWeb-texto">En la era digital actual, tener <span style="color: #d580ff;"> una página web es fundamental para cualquier negocio.</span> Es la carta de presentación en línea que puede marcar la diferencia entre el éxito y el fracaso. Una página web bien diseñada y fácil de usar puede atraer a nuevos clientes, aumentar las ventas y fortalecer la marca.
+            <p id="secWeb-texto">En la era digital actual, tener <span style="color: #8e00d4;"> una página web es fundamental para cualquier negocio.</span> Es la carta de presentación en línea que puede marcar la diferencia entre el éxito y el fracaso. Una página web bien diseñada y fácil de usar puede atraer a nuevos clientes, aumentar las ventas y fortalecer la marca.
                 <br>
-                Una página web <span style="color: #d580ff;">te permite estar disponible las 24 horas del día</span>, los 7 días de la semana, llegando a clientes potenciales en todo el mundo. Además, brinda la oportunidad de mostrar productos y servicios de manera atractiva, ofrecer información detallada y responder preguntas frecuentes, todo en un solo lugar.
+                Una página web <span style="color: #8e00d4;">te permite estar disponible las 24 horas del día</span>, los 7 días de la semana, llegando a clientes potenciales en todo el mundo. Además, brinda la oportunidad de mostrar productos y servicios de manera atractiva, ofrecer información detallada y responder preguntas frecuentes, todo en un solo lugar.
                 <br>
                 Además, una página web bien optimizada puede mejorar el posicionamiento en los motores de búsqueda, lo que significa que más personas podrán encontrar tu negocio en línea.
                 <br>
-                Esto puede traducirse en un <span style="color: #d580ff;">aumento significativo de la visibilidad, ganancia y credibilidad de la marca.</span>
+                Esto puede traducirse en un <span style="color: #8e00d4;">aumento significativo de la visibilidad, ganancia y credibilidad de la marca.</span>
             </p>
         </div>
         <div style="width: 30rem;">
-            <img style="width: 100%;" src="Css/img/secWebImage.png" alt="">
+            <img style="width: 50vh;" src="Css/img/secWebImage.png" alt="">
         </div>
        </div>
-    </dir>
+    </div>
 
 
-
+    <div id="comoTrabajamos-background">
     <div class="container">
         <div class="text-center" id="comoTrabajamos-titulo">
             <h2>Como trabajamos tu Página Web</h2>
             <hr>
         </div>
         <div class="mt-4">
-            <p>Nuestro enfoque se centra en diseñar páginas web a medida para proporcionar a cada usuario una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.</p>
+            <p id="comoTrabajamos-desc">Nuestro enfoque se centra en diseñar páginas web a medida para proporcionar a cada usuario una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.</p>
+            <hr style="color: white;">
         </div>
-        <div id="comoTrabajamos-container">
+        <div id="comoTrabajamos-Cards">
             <div class="row justify-content-center">
                 <div class="col-md-5">
                     <h3>Responsive</h3>
                     <p>Para una navegación rápida y fácil es necesario crear un sitio web se adapte a diversos dispositivos como pc, celulares y tablets, manteniendo su estructura y orden. Así cada elemento adapta sus proporciones a cualquier pantalla permitiendo una correcta visualización.</p>
                 </div>
                 <div class="col-md-5">
-                    <h3>Autoadministrables</h3>
+                    <h3>Administrables</h3>
                     <p>Esto permite que, una vez online, el propietario del sitio web pueda seguir gestionando su sitio. Esto es una ventaja debido a que, muchas veces, se requieren actualizaciones periódicas (precios, nuevos elementos o, incluso, contenidos).</p>
                 </div>
             </div>
@@ -77,9 +81,76 @@
                     <h3>Diseño</h3>
                     <p>El diseño web está orientado no solo a optimizar los procesos de desarrollo y maquetación web, si no principalmente a definir una estrategia clara, de cómo el branding de la marca va a interactuar con el Layout de la página web. De esta manera trabajamos y nos enfocamos en la experiencia del usuario, los recursos gráficos, tipografías, iconos, entre otros elementos.</p>
                 </div>
+                <hr style="color: white;">
             </div>
         </div>
     </div>
+</div>
+
+
+<div class="container" id="contact-Title">
+    <h2 class="text-center">Contáctanos</h2>
+    <hr>
+    <p id="contact-desc" style="color: rgb(90, 90, 90);">Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!</p>
+</div>
+<div class="container d-flex justify-content-around align-items-center text-center" id="contactSection">
+    <div>
+        <h2 style="width: 50vh;">
+            Nos dedicamos a ser tu aliado en la materialización de tus ideas y en la clarificación de tus dudas. Estamos aquí para brindarte todo nuestro apoyo y experiencia. <span style="color: #8e00d4;">¡Contáctanos hoy mismo para empezar a trabajar juntos!</span> 
+        </h2>
+    </div>
+    <div id="contactForm-Background">
+        <form id="contact-form">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+            </div>
+            <div class="form-group">
+              <label for="tel">Teléfono (opcional)</label>
+              <input type="email" class="form-control" id="telefono" placeholder="Ingresa tu número celular">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Enseñanos tu idea o tu consulta</label>
+              <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingresa tu mensaje" required></textarea>
+            </div>
+            <button type="submit" id="btn-enviar">Enviar</button>
+          </form>
+    </div>
+</div>
+
+
+
+<div>
+    <div class="container text-center">
+        <h2>Planes</h2>
+        <p>Descubre nuestros planes y conoce los diferentes tipos de páginas web. ¡Úsalo de guía para tomar la mejor decisión!</p>
+        <hr>
+    </div>
+    <div class="d-flex justify-content-around text-center" id="planes-conteiner">
+        <div>
+            <h3>Web Corporativa</h3>
+            <p>Las webs corporativas son sitios web diseñados para representar a una empresa en línea y comunicar su identidad, productos, servicios y valores a su audiencia. Suelen incluir información sobre la historia de la empresa, su misión y visión, así como detalles de contacto y enlaces a sus redes sociales. Estas webs también pueden incluir secciones sobre sus productos o servicios, noticias y eventos, testimonios de clientes y oportunidades de empleo. Su objetivo principal es fortalecer la presencia en línea de la empresa y mejorar su imagen corporativa.</p>
+        </div>
+        <div>
+            <h3>Landind Page</h3>
+            <p>Una landing page, o página de destino, es una página web diseñada específicamente para convertir a los visitantes en clientes potenciales. Estas páginas suelen ser parte de una estrategia de marketing digital y están optimizadas para una acción específica, como completar un formulario, hacer una compra o descargar un recurso.</p>
+        </div>
+        <div>
+            <h3>Tienda Online</h3>
+            <p>Las tiendas online, también conocidas como tiendas virtuales o tiendas en línea, son sitios web diseñados para permitir a los usuarios comprar productos o servicios directamente a través de Internet. Estas tiendas suelen ofrecer una amplia variedad de productos, que pueden ir desde ropa y electrónica hasta servicios digitales y suscripciones.</p>
+        </div>
+        <div>
+            <h3>Tipo Folleto/Presentación</h3>
+            <p>son sitios web que presentan información de manera similar a un folleto impreso. Estas webs suelen contener toda la información relevante en una sola página, lo que permite a los usuarios desplazarse hacia abajo para leerla.
+
+                Las páginas tipo folleto suelen utilizarse para promocionar un producto o servicio específico, o para presentar información concisa sobre una empresa o un evento. Suelen tener un diseño atractivo y visualmente impactante, con un enfoque claro en el contenido principal que se quiere comunicar.</p>
+        </div>
+    </div>
+</div>
 
 
 
