@@ -11,3 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+function transferToForm(description) {
+    // Transferir la información al formulario
+    document.getElementById('mensaje').value = `Estoy interesado en el plan "${description}". Tengo varias ideas para mi página y me gustaría discutirlas en detalle... `;
+    
+    // Opcional: Desplazarse hasta el formulario
+    document.getElementById('contact-Title').scrollIntoView({ behavior: 'smooth' });
+  }

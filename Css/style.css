@@ -267,14 +267,18 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     box-shadow:rgb(109, 109, 109) 7px 7px 0px !important;
     translate: -5px -5px;
 }.card{
+    height: 100%;
     background-color: #fdfdfd;
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.103) 0px 0px 15px;
+    cursor: pointer;
+}.card-text{
+    margin-top: 7%;
 }
 .precios{
     color: #57437F;
     font-weight: bold;
-    font-size: large;
+    font-size: 1.5rem;
 }#mantenimiento-desc{
     font-weight: 500;
     font-size: large;
