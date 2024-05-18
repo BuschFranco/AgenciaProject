@@ -20,3 +20,30 @@ function transferToForm(description) {
     // Opcional: Desplazarse hasta el formulario
     document.getElementById('contact-Title').scrollIntoView({ behavior: 'smooth' });
   }
+
+
+  //función que se encarga de detectar los valores de la lista de idiomas
+  function handleDropdownChange() {
+    var selectElement = document.getElementById("opciones");
+    var selectedValue = selectElement.value;
+    changeLanguage(selectedValue);
+}
+
+  const textsToChange = document.querySelectorAll("[data-section]");
+  //función que devuelve el valor de la lista
+  async function changeLanguage(language){
+    const requestJson = await fetch(`./Languages/${language}.json`);
+    const texts = await requestJson.json();
+
+    for(const textToChange of textsToChange)
+      {
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value;
+
+        textToChange.innerHTML = texts[section][value];
+      }
+
+      console.log(texts["comoTrabajamos"]);
+  }
+
+  

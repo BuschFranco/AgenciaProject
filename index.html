@@ -5,6 +5,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgenciaDev</title>
 </head>
@@ -13,11 +16,11 @@
          <h1 id="empresa">Young Miko</h1>  
          
          <div class=" py-3">
-            <ul class="nav nav-pills d-flex justify-content-around">
-               <li class="nav-item"><a href="#welcomeSec-Conteiner" class="nav-link active" id="btn-inicio" aria-current="page">Inicio</a></li>
-               <li class="nav-item"><a href="#planes-titulo" class="nav-link" id="a">Planes</a></li>
-               <li class="nav-item"><a href="#contact-Title" class="nav-link" id="a">Contacto</a></li>
-               <li class="nav-item"><a href="#who-titulo" class="nav-link" id="a">Quienes somos</a></li>
+            <ul class="nav nav-pills d-flex justify-content-around" id="elementos-nav">
+               <li class="nav-item"><a href="#welcomeSec-Conteiner" class="nav-link active" style="margin-right: 1rem;" id="btn-inicio" data-section="elementos-nav" data-value="main">Inicio</a></li>
+               <li class="nav-item"><a href="#planes-titulo" class="nav-link" id="a" data-section="elementos-nav" data-value="packages">Planes <i id="sas" style="opacity: 0;" class=" fa-solid fa-briefcase"></i></a></li>
+               <li class="nav-item"><a href="#contact-Title" class="nav-link" id="a" data-section="elementos-nav" data-value="contact">Contacto <i id="sas" style="opacity: 0;" class=" fa-solid fa-envelope"></i></a></li>
+               <li class="nav-item"><a href="#who-titulo" class="nav-link" id="a" data-section="elementos-nav" data-value="who we are">Quienes somos <i id="sas" style="opacity: 0;" class=" fa-solid fa-users">?</i></a></li>
             </ul>
            </div>
     </header>
@@ -25,19 +28,26 @@
 
 
     <div id="welcomeSec-Conteiner">
+        <div class="dropdown-container">
+            <label for="opciones" data-section="welcomeSec" data-value="language">Lenguaje</label>
+            <select id="opciones" class="dropdown" onchange="handleDropdownChange()">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </div>
      <div class="container d-flex justify-content-center align-items-center" id="slogan-Conteiner">
-        <h2 id="slogan">Eleva tu presencia en línea con nuestro desarrollo web, convirtiendo visitantes en clientes.</h2>
+        <h2 id="slogan" data-section="welcomeSec" data-value="slogan">Eleva tu presencia en línea con nuestro desarrollo web, convirtiendo visitantes en clientes. <i class="fa-solid fa-chart-line"></i> <i class="fa-regular fa-face-laugh-wink"></i></h2>
      </div>
     </div>
 
     
 <div>
     <div class="container" id="secWeb">  
-        <h2 class="text-center" id="secWeb-titulo">Por qué tener una Página Web?</h2>
+        <h2 class="text-center" id="secWeb-titulo" data-section="secWeb" data-value="title">Por qué tener una Página Web <i class="fa-solid fa-question"></i></h2>
         <hr>
       <div class="d-flex justify-content-around flex-wrap" id="secWeb-contenedor">
         <div style="width: 40rem;" class="d-flex align-items-center">
-            <p style="font-size: large;" id="secWeb-texto">En la era digital actual, tener <span style="color: #8e00d4;"> una página web es fundamental para cualquier negocio.</span> Es la carta de presentación en línea que puede marcar la diferencia entre el éxito y el fracaso. Una página web bien diseñada y fácil de usar puede atraer a nuevos clientes, aumentar las ventas y fortalecer la marca.
+            <p style="font-size: large;" id="secWeb-texto" data-section="secWeb" data-value="description">En la era digital actual, tener <span style="color: #8e00d4;"> una página web es fundamental para cualquier negocio.</span> Es la carta de presentación en línea que puede marcar la diferencia entre el éxito y el fracaso. Una página web bien diseñada y fácil de usar puede atraer a nuevos clientes, aumentar las ventas y fortalecer la marca.
                 <br>
                 Una página web <span style="color: #8e00d4;">te permite estar disponible las 24 horas del día</span>, los 7 días de la semana, llegando a clientes potenciales en todo el mundo. Además, brinda la oportunidad de mostrar productos y servicios de manera atractiva, ofrecer información detallada y responder preguntas frecuentes, todo en un solo lugar.
                 <br>
@@ -55,37 +65,44 @@
 
 
     <div id="comoTrabajamos-background">
-    <div class="container">
+    <div>
         <div class="text-center" id="comoTrabajamos-titulo">
-            <h2>Tu Página Web a medida</h2>
+            <h2 data-section="comoTrabajamos" data-value="title">Tu Página Web a medida</h2>
             <hr>
         </div>
         <div class="mt-4">
-            <p id="comoTrabajamos-desc">Nuestro enfoque se centra en diseñar páginas web a medida para proporcionar a cada usuario una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.</p>
+            <p id="comoTrabajamos-desc" class="container" data-section="comoTrabajamos" data-value="description">Nuestro enfoque se centra en diseñar páginas web a medida para proporcionar a cada usuario una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.</p>
             <hr style="color: white;">
         </div>
+       <div class="d-flex" id="contenedor-comotrabajamos">
+        <div>
+            <div class="comoTrabajamos-imagen">
+                <img src="Css/img/howwork.png" alt="Imagen">
+            </div>
+        </div>
         <div id="comoTrabajamos-Cards">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="margin-left: 0;">
                 <div class="col-md-5 text-start">
-                    <h3 style="font-weight: bold;">Responsive</h3>
-                    <p>Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.</p>
+                    <h3 style="font-weight: bold;"><i class="fa-solid fa-mobile-screen-button"></i> Responsive</h3>
+                    <p data-section="comoTrabajamos" data-value="responsiveDesc">Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.</p>
                 </div>
                 <div class="col-md-5 text-start">
-                    <h3 style="font-weight: bold;">Administrables</h3>
-                    <p>Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.</p>
+                    <h3 style="font-weight: bold;" data-section="comoTrabajamos" data-value="manageable"><i class="fa-solid fa-sliders"></i> Administrables</h3>
+                    <p data-section="comoTrabajamos" data-value="manageableDesc">Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="margin-left: 0;">
                 <div class="col-md-5 text-start">
-                    <h3 style="font-weight: bold;">Escalabilidad</h3>
-                    <p>Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.</p>
+                    <h3 style="font-weight: bold;" data-section="comoTrabajamos" data-value="scalability"><i class="fa-solid fa-chart-simple" ></i> Escalabilidad</h3>
+                    <p data-section="comoTrabajamos" data-value="scalabilityDesc">Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.</p>
                 </div>
                 <div class="col-md-5 text-start">
-                    <h3 style="font-weight: bold;">Diseño</h3>
-                    <p>Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva.</p>
+                    <h3 style="font-weight: bold;"  data-section="comoTrabajamos" data-value="design" ><i class="fa-solid fa-palette"></i> Diseño</h3>
+                    <p data-section="comoTrabajamos" data-value="designDesc">Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva.</p>
                 </div>
             </div>
         </div>
+      </div>  
     </div>
 </div>
 
@@ -146,7 +163,7 @@
             <div class="card" style="width: 25rem; border: none;">
                 <img src="Css/img/backgroundsec1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Web Corporativa</h5>
+                  <h5 class="card-title"><i class="fa-solid fa-handshake-angle"></i> Web Corporativa</h5>
                   <p class="card-text">Las webs corporativas son sitios diseñados para representar a una empresa en línea y comunicar su identidad, productos, servicios y valores a su audiencia. Suelen incluir información sobre la historia de la empresa, su misión y visión, así como detalles de contacto y enlaces a sus redes sociales. Estas webs también pueden incluir secciones sobre sus productos o servicios, testimonios de clientes y/o oportunidades de empleo. Su objetivo principal es fortalecer la presencia en línea de la empresa y mejorar su imagen corporativa.</p>
                 </div>
                 <p class="precios">$200 USD / $<span class="precios-pesos">200.000</span> ARS</p>
@@ -156,7 +173,7 @@
             <div class="card" style="width: 25rem; border: none;">
                 <img src="Css/img/backgroundsec1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Landind Page</h5>
+                  <h5 class="card-title"><i class="fa-solid fa-bullseye"></i> Landind Page</h5>
                   <p class="card-text">Una landing page, o página de destino, es una página web diseñada específicamente para convertir a los visitantes en clientes potenciales. Estas páginas suelen ser parte de una estrategia de marketing digital y están optimizadas para una acción específica, como completar un formulario, hacer una compra o descargar un recurso. Además, están cuidadosamente estructuradas para captar la atención del usuario y guiarlo hacia la acción deseada mediante un diseño atractivo, contenido relevante y llamadas a la acción claras.</p>
                 </div>
                 <p class="precios">$90 USD / $<span class="precios-pesos">90.000</span> ARS</p>
@@ -166,7 +183,7 @@
             <div class="card" style="width: 25rem; border: none;">
                 <img src="Css/img/backgroundsec1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tienda Online</h5>
+                  <h5 class="card-title"><i class="fa-solid fa-cart-shopping"></i> Tienda Online</h5>
                   <p class="card-text">Las tiendas online, también conocidas como tiendas virtuales o tiendas en línea, son sitios web diseñados para permitir a los usuarios comprar productos o servicios directamente a través de Internet. Estas tiendas suelen ofrecer una amplia variedad de productos, que pueden ir desde ropa y electrónica hasta servicios digitales y suscripciones. Además, permiten a los clientes realizar compras de manera cómoda y rápida, sin necesidad de salir de casa, y en cualquier momento del día.</p>
                 </div>
                 <P class="precios">$250 USD / $<span class="precios-pesos">250.000</span> ARS</P>
@@ -176,7 +193,7 @@
             <div class="card" style="width: 25rem; border: none;">
                 <img src="Css/img/backgroundsec1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Tipo Folleto/Presentación</h5>
+                  <h5 class="card-title"><i class="fa-solid fa-user"></i> Tipo Folleto/Presentación</h5>
                   <p class="card-text">Son sitios web que presentan información de manera similar a un folleto impreso. Estas webs suelen contener toda la información relevante en una sola página.
                     Las páginas tipo folleto suelen utilizarse para promocionar un producto o servicio específico, o para presentar información concisa sobre una empresa o un evento. Suelen tener un diseño atractivo y visualmente impactante, con un enfoque claro en el contenido principal que se quiere comunicar.</p>
                 </div>
@@ -184,22 +201,22 @@
              </div>
         </div>
     </div>
-    <div class="container" onclick="transferToForm('Mantenimiento')">
+    <div class="container" onclick="transferToForm('Mantenimiento')" style="width: 60%;">
         <hr>
-        <h3 class="mt-5" style="font-weight: bold;">Mantenimiento</h3>
-        <p class="mt-4 mb-5" id="mantenimiento-desc">Ofrecemos un servicio opcional de mantenimiento que garantiza el monitoreo constante de su sitio las 24 horas del día. Nos encargamos de asegurar que su web funcione correctamente y de manera óptima, realizando ajustes y actualizaciones necesarias para mantenerla en perfecto estado. Con nuestro servicio, usted puede estar tranquilo sabiendo que su página web está en buenas manos y funcionando como debe en todo momento.</p>
+        <h3 class="mt-5" style="font-weight: bold; color: #3a3a3a;">Mantenimiento</h3>
+        <p class="mt-4 mb-5" id="mantenimiento-desc">Ofrecemos un servicio mensual opcional de mantenimiento que garantiza el monitoreo constante de su sitio las 24 horas del día. Nos encargamos de asegurar que su web funcione correctamente y de manera óptima, realizando ajustes y actualizaciones necesarias para mantenerla en perfecto estado. Con nuestro servicio, usted puede estar tranquilo sabiendo que su página web está en buenas manos y funcionando como debe en todo momento.</p>
         <div class="d-flex justify-content-around flex-wrap" id="mantenimiento-conteiner"> 
             <div>
-                <img id="mant-imagen" src="Css/img/mantenimientoimg.png" style="width: 60vh; box-shadow: rgba(0, 0, 0, 0.199) 0px 0px 15px;" alt="">
+                <img id="mant-imagen" src="Css/img/mantenimientoimg.png" style="width: 50vh; box-shadow: rgba(0, 0, 0, 0.199) 0px 0px 15px;" alt="">
             </div>
             <div class="p-4 text-start" style="width: 23rem; border: none;">
                 <div class="card-body">
-                  <h5 class="card-title mb-3">Pack Servicio de Mantenimiento</h5>
+                  <h5 class="card-title mb-3" style="font-size: 1.3rem;">Pack Servicio de Mantenimiento</h5>
                   <p class="card-text text-start"><span style="color: #8e00d4; font-weight: 500;">Monitoreo constante:</span> Nuestro equipo supervisará su página web en busca de cualquier problema o fallo técnico, asegurando su correcto funcionamiento en todo momento.
                     <span style="color: #8e00d4; font-weight: 500;"><br>Soporte técnico prioritario:</span> Usted recibirá atención personalizada y prioritaria en caso de cualquier problema técnico o consulta relacionada con su página web.
                     <span style="color: #8e00d4; font-weight: 500;"><br>Copias de seguridad automáticas:</span> Realizamos copias de seguridad periódicas de su sitio web para proteger sus datos en caso de pérdida o daño.
                   </p>
-                  <p class="precios" style="font-size: 1.3rem;">$30 USD / $<span class="precios-pesos">30.000</span> ARS por mes</p>
+                  <p class="precios" style="font-size: 1.3rem; bottom: 0;">$30 USD / $<span class="precios-pesos">30.000</span> ARS</p>
                 </div>
              </div>
         </div>
@@ -222,14 +239,15 @@
       
           <div class="text-end">
               <p class="p-3" style="font-size: large; font-weight: 500; color: rgb(90, 90, 90);">
-              Nos dedicamos al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades en línea.
+              Somos un emprendimiento dedicado al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades.
               <br>
-              Nuestro enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estamos aquí para ayudarte a alcanzar tus objetivos en internet.
+              Nuestro enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estamos aquí para ayudarte a alcanzar tus objetivos.
               <br>
               Nos encontramos ubicados en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajamos con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Nuestro equipo está formado por expertos en diseño web, desarrollo de aplicaciones y marketing digital, listos para llevar tu presencia en línea al siguiente nivel.
               <br>
               En Rennen, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.
               </p>
+              <p style="line-height: 1.1rem;"><span style="font-family: Yellowtail, cursive; font-size: x-large;">Busch Franco </span><br> <span style="font-size: small;">Desarrollador</span></p>
           </div>
       </div>
    </div>
@@ -238,9 +256,9 @@
 
 
 <div class="container" id="contact-Title">
-    <h2 class="text-center">Contáctanos</h2>
+    <h2 class="text-center" data-section="contactUs" data-value="title">Contáctanos</h2>
     <hr>
-    <p id="contact-desc" style="color: rgb(90, 90, 90);">Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!</p>
+    <p id="contact-desc" style="color: rgb(90, 90, 90);" data-section="contactUs" data-value="description">Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!</p>
 </div>
 <div class="container d-flex justify-content-around align-items-center" id="contactSection">
     <div>
@@ -266,7 +284,7 @@
               <label for="mensaje">Enseñanos tu idea o tu consulta</label>
               <textarea type="text" class="form-control" id="mensaje" name="consulta" rows="3" placeholder="Ingresa tu mensaje" required></textarea>
             </div>
-            <button type="submit" id="btn-enviar" style="border-radius: 0.6rem; font-weight: 500; font-size: large;">Enviar</button>
+            <button type="submit" id="btn-enviar" style="border-radius: 0.6rem; font-weight: 500; font-size: large;"><i class="fa-regular fa-envelope"></i> Enviar</button>
 
             <input type="hidden" name="_next" value="http://localhost:8000">
           </form>
@@ -287,21 +305,21 @@
                 <p>logo</p>
             </div>
             <div class="p-2 footer-list">
-                <h2>Contacto</h2>
+                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-envelope"></i> Contacto</h2>
                 <a href="#contact-Title">Formulario de Contacto</a>
                 <p>Movil: (+54) 11 3150-6458</p>
                 <p>Correo: rennenclub@gmail.com</p>
                 <p>Adrogué, Buenos Aires. Argentina</p>
             </div>
             <div class="p-2 footer-list">
-                <h2>Planes</h2>
+                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-briefcase"></i> Planes</h2>
                 <a href="#planes-titulo">Web Corporativa</a>
                 <a href="#planes-titulo">Landind Page</a>
                 <a href="#planes-titulo">Tienda Online</a>
                 <a href="#planes-titulo">Tipo Folleto/Presentación</a>
             </div>
             <div class="p-2 footer-list">
-                <h2>Rennen</h2>
+                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-users"></i> Rennen</h2>
                 <a href="#who-titulo">Quienes somos?</a>
                 <a href="#comoTrabajamos-titulo">Como trabajamos tu Página Web</a>
                 <a href="#planes-titulo">Planes</a>
@@ -316,5 +334,6 @@
       </footer>
     
       <script src="Js/app.js"></script>
+      <script src="https://kit.fontawesome.com/55ffb50638.js" crossorigin="anonymous"></script>
 </body>
 </html>
