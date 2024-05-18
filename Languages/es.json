@@ -1,0 +1,35 @@
+{
+    "elementos-nav":{
+        "main": "Inicio",
+        "packages": "Planes",
+        "contact": "Contacto",
+        "who we are": "Quienes somos?"
+    },
+
+    "welcomeSec":{
+        "language":"Lenguaje",
+        "slogan":"Eleva tu presencia en línea con nuestro desarrollo web, convirtiendo visitantes en clientes. <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+    },
+
+    "secWeb": {
+        "title":"Por qué tener una Página Web?",
+        "description":"En la era digital actual, tener <span style='color: #8e00d4;'> una página web es fundamental para cualquier negocio.</span> Es la carta de presentación en línea que puede marcar la diferencia entre el éxito y el fracaso. Una página web bien diseñada y fácil de usar puede atraer a nuevos clientes, aumentar las ventas y fortalecer la marca.<br>Una página web <span style='color: #8e00d4;'>te permite estar disponible las 24 horas del día</span>, los 7 días de la semana, llegando a clientes potenciales en todo el mundo. Además, brinda la oportunidad de mostrar productos y servicios de manera atractiva, ofrecer información detallada y responder preguntas frecuentes, todo en un solo lugar.<br>Además, una página web bien optimizada puede mejorar el posicionamiento en los motores de búsqueda, lo que significa que más personas podrán encontrar tu negocio en línea.<br>Esto puede traducirse en un <span style='color: #8e00d4;'>aumento significativo de la visibilidad, ganancia y credibilidad de la marca.</span>"
+    },
+
+    "comoTrabajamos":{
+        "title":"Tu Página Web a medida",
+        "description":"Nuestro enfoque se centra en diseñar páginas web a medida para proporcionar a cada usuario una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.",
+        "responsiveDesc":"Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.",
+        "manageable":"<i class='fa-solid fa-sliders'></i> Administrables",
+        "manageableDesc":"Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.",
+        "scalability":"<i class='fa-solid fa-chart-simple' ></i> Escalabilidad",
+        "scalabilityDesc":"Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.",
+        "design":"<i class='fa-solid fa-palette'></i> Diseño",
+        "designDesc":"Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva."
+    },
+
+    "contactUs": {
+        "title":"Contáctanos",
+        "description":"Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!"
+    }
+}

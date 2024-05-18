@@ -1,0 +1,35 @@
+{
+    "elementos-nav":{
+        "main": "Main",
+        "packages": "Packages",
+        "contact": "Contact",
+        "who we are": "Who we are?"
+    },
+
+    "welcomeSec":{
+        "language":"Language",
+        "slogan":"Elevate your online presence with our web development, turning visitors into customers. <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+    },
+
+    "secWeb": {
+        "title":"Why have a web site?",
+        "description":"In today's digital age, having <span style='color: #8e00d4;'> a website is essential for any business.</span> It is the online business card that can make the difference between success and failure. A well-designed and user-friendly website can attract new customers, increase sales, and strengthen the brand.<br>A website <span style='color: #8e00d4;'>allows you to be available 24 hours a day</span>, 7 days a week, reaching potential customers worldwide. Additionally, it provides the opportunity to showcase products and services attractively, offer detailed information, and answer frequently asked questions, all in one place.<br>Moreover, a well-optimized website can improve search engine rankings, meaning more people will be able to find your business online.<br>This can translate into a <span style='color: #8e00d4;'>significant increase in visibility, profit, and brand credibility.</span>"
+    },
+
+    "comoTrabajamos":{
+        "title":"Your Custom Website",
+        "description":"Our focus is on designing custom websites to provide each user with a unique experience. As web design specialists, we are dedicated to creating adaptable and scalable sites that function optimally on any device, whether it be a mobile phone, tablet, or desktop computer. Additionally, we incorporate interactive and personalized features to enhance the user experience, ensuring their satisfaction and engagement.",
+        "responsiveDesc":"",
+        "manageable":"<i class='fa-solid fa-sliders'></i> Manageable",
+        "manageableDesc":"Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.",
+        "scalability":"<i class='fa-solid fa-chart-simple' ></i> Scalability",
+        "scalabilityDesc":"Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.",
+        "design":"<i class='fa-solid fa-palette'></i> Design",
+        "designDesc":"Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva."
+    },
+
+    "contactUs": {
+        "title":"Contact Us",
+        "description":"We are here to help you turn your idea into reality. You can contact us to share your project, make general inquiries, or request a quote. We are listening!"
+    }
+}
