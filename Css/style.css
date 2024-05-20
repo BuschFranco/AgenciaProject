@@ -181,7 +181,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         opacity: 1 !important;
     }
 }#welcomeSec-Conteiner {
-    background-image: url('/Css/img/backgroundsec1.png');
+    background-image: url('/Css/img/backgroundsec1.jpg') !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
