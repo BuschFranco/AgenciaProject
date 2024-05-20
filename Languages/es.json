@@ -1,9 +1,9 @@
 {
     "elementos-nav":{
         "main": "Inicio",
-        "packages": "Planes",
-        "contact": "Contacto",
-        "who we are": "Quienes somos?"
+        "packages": "Planes <i id='sas' style='opacity: 0;' class=' fa-solid fa-briefcase'></i>",
+        "contact": "Contacto <i id='sas' style='opacity: 0;' class=' fa-solid fa-envelope'></i>",
+        "who we are": "Quienes somos? <i id='sas' style='opacity: 0;' class=' fa-solid fa-users'>?</i>"
     },
 
     "welcomeSec":{
@@ -61,7 +61,9 @@
         "card4Title":"<i class='fa-solid fa-user'></i> Tipo Folleto/Presentación",
         "card4Desc":"Son sitios web que presentan información de manera similar a un folleto impreso. Estas webs suelen contener toda la información relevante en una sola página. Las páginas tipo folleto suelen utilizarse para promocionar un producto o servicio específico, o para presentar información concisa sobre una empresa o un evento. Suelen tener un diseño atractivo y visualmente impactante, con un enfoque claro en el contenido principal que se quiere comunicar.",
         "card4Price":"$80 USD / $80.000 ARS",
-        "card5Title":"Pack Servicio de Mantenimiento",
+        "serviceMant":"Mantenimiento",
+        "serviceMantDesc":"Ofrecemos un servicio mensual opcional de mantenimiento que garantiza el monitoreo constante de su sitio las 24 horas del día. Nos encargamos de asegurar que su web funcione correctamente y de manera óptima, realizando ajustes y actualizaciones necesarias para mantenerla en perfecto estado. Con nuestro servicio, usted puede estar tranquilo sabiendo que su página web está en buenas manos y funcionando como debe en todo momento.",
+        "card5Title":"<i class='fa-solid fa-gears'></i> Pack Servicio de Mantenimiento",
         "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Monitoreo constante:</span> Nuestro equipo supervisará su página web en busca de cualquier problema o fallo técnico, asegurando su correcto funcionamiento en todo momento.<span style='color: #8e00d4; font-weight: 500;'><br>Soporte técnico prioritario:</span> Usted recibirá atención personalizada y prioritaria en caso de cualquier problema técnico o consulta relacionada con su página web.<span style='color: #8e00d4; font-weight: 500;'><br>Copias de seguridad automáticas:</span> Realizamos copias de seguridad periódicas de su sitio web para proteger sus datos en caso de pérdida o daño.",
         "card5Price":"$30 USD / $30.000 ARS"
     },
