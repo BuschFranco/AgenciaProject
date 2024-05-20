@@ -381,9 +381,14 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     color: rgb(90, 90, 90);
 }#contactSection{
     margin-bottom: 5rem;
+}#contactSection h2{
+    width: 50vh;
 }@media (max-width: 986px) {
     #contactSection{
         flex-wrap: wrap;
+    }#contactSection h2{
+        width: 100%;
+        padding-bottom: 2rem;
     }
 }#contactForm-Background{
     background-color: #57437F;
@@ -572,7 +577,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     justify-content: center;
     align-items: center;
 }.proceso-trabajo {
-    border-radius: 12px;
+    border-radius: 15px;
     overflow: hidden;
 }.proceso-trabajo h2 {
     text-align: center;
@@ -600,7 +605,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     align-items: center;
     background-color: #fcfcfc;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 0.6rem;
     border-left: 6px solid #57437F;
     border-radius: 8px;
     box-shadow: 0 2px 25px #57437f34;
@@ -622,7 +627,6 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     flex-wrap: wrap;
     border: 1px solid #ddd;
     height: 18vh;
-    padding: 20px;
     border-radius: 4rem;
 }
 
@@ -650,11 +654,21 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         height: 20vh;
     }
 }
+@media (max-width: 700px) {
+    .lista-proceso{
+        padding: 0;
+    }
+    .lista-proceso p{
+        font-size: x-small;
+    }.lista-proceso h3:nth-child(2){
+        font-size: small;
+    }
+}
 .proceso-trabajo li:hover {
     box-shadow: 0 4px 12px #57437f6c;
 }.proceso-trabajo li::before {
     content: counter(step-counter);
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
     color: #fff;
     background-color: #57437F;
@@ -662,9 +676,9 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
-    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
     flex-shrink: 0;
 }.proceso-trabajo li h3 {
     color: #333;
@@ -676,7 +690,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     color: #666;
     line-height: 1.5;
 }.proceso-trabajo .icono {
-    font-size: 1.4em;
+    font-size: 1em;
     color: #57437F;
     opacity: 0.8;
 }
