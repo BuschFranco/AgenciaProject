@@ -135,9 +135,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }
 /* Para mejorar la apariencia en móviles y tablets */
 @media (max-width: 991.98px) {
-    .dropdown-container {
-        display: none; /* Oculta el dropdown en pantallas pequeñas */
-    }#elementos-nav {
+    #elementos-nav {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -239,7 +237,25 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 
     opacity: 0;
     animation: fadeIn 2.5s forwards;
-
+}@media (max-width: 600px) {
+    #slogan{
+        font-size: 1.2rem;
+    }#slogan-Conteiner{
+        width: 100%;
+    }.dropdown-container {
+        margin-right: 2rem;
+        font-size: 0.5rem;
+        font-weight: 500;
+        border: solid rgba(0, 0, 0, 0.11) 1px;
+        border-radius: 1rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 5px;
+    }.dropdown {
+        margin-left: 0rem;
+        border-radius: 5px;
+        border: none;
+    }
 }
 
 
@@ -352,7 +368,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         flex-wrap: wrap;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     .comoTrabajamos-imagen img{
         width: 100%;
         height: 100%;
@@ -449,7 +465,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 @media (max-width: 700px) {
     .lista-proceso{
         padding: 0;
-        height: 14vh;
+        height: 15vh;
     }
     .lista-proceso p{
         font-size: x-small;
