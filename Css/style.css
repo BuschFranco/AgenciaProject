@@ -95,13 +95,70 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }
 
 
-@media (max-width: 600px) {
-    #inicio div{
-        width: 100%;
-    }#empresa{
+
+
+
+#contenedor-Nav{
+    padding: 1rem;
+}
+/* Estilo para el contenedor del dropdown */
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+/* Estilo para el dropdown */
+.dropdown-container .dropdown {
+    appearance: none; /* Oculta la flecha predeterminada del navegador */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="black" stroke-width=".5" d="M2 0L0 2.5h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 0.65rem auto;
+}
+
+/* Estilo para eliminar las flechas en Firefox */
+.dropdown-container .dropdown::-ms-expand {
+    display: none;
+}#opciones{
+    border: none;
+    font-size: large;
+}
+/* Para mejorar la apariencia en móviles y tablets */
+@media (max-width: 991.98px) {
+    .dropdown-container {
+        display: none; /* Oculta el dropdown en pantallas pequeñas */
+    }#elementos-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }/* Ocultar el último li en tamaños menores a 991px */
+    #elementos-nav li:last-child {
+        display: none;
+    }#elementos-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+}@media (max-width: 720px) {
+    #elementos-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }#contenedor-Nav{
+        padding: 0;
+    }#elementos-nav li:nth-child(4) {
         display: none;
     }
 }
+
   
 
 #header-zone{
@@ -144,19 +201,18 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }.dropdown-container {
     display: flex;
     align-items: center;
-    position: absolute;
-    color: white;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
     font-size: 1.4rem;
     font-weight: 500;
-}
-
-.dropdown {
+    border: solid rgba(0, 0, 0, 0.11) 1px;
+    border-radius: 1rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 5px;
+}.dropdown {
     margin-left: 0.6rem;
-    padding: 2px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: none;
 }
 #slogan-Conteiner{
     height: 90vh;
@@ -315,17 +371,23 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     #contactSection{
         flex-wrap: wrap;
     }
-}
-#contact-Conteiner{
-    margin-bottom: 5rem;
 }#contactForm-Background{
     background-color: #57437F;
     padding: 2rem;
     border-radius: 2rem;
     color: white;
+}#contact-Conteiner{
+    margin-bottom: 5rem;
 }#contact-form{
     width: 50vh;
+}@media (max-width: 600px) {
+    #contactForm-Background{
+        width: 100%;
+    }#contact-form{
+        width: 100%;
+    }
 }
+
 #contact-form div{
     margin-bottom: 2rem;
     text-align: center;
@@ -384,7 +446,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }.card{
     height: 100%;
     background-color: #fdfdfd;
-    border-radius: 1.9rem;
+    border-radius: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.103) 0px 0px 15px;
     cursor: pointer;
 }.card-text{
@@ -608,11 +670,15 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 
 
 
+
 #footer-secciones div{
     width: 16rem;
     margin-left: 2rem;
     margin-right: 2rem;
-}.footer-list a{
+}.footer-list h2{
+    font-size: 1.7rem;
+}
+.footer-list a{
     display: block;
     text-decoration: none;
     margin-bottom: 0.6rem;

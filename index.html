@@ -13,14 +13,20 @@
 </head>
 <body>
     <header id="inicio" class="align-items-center d-flex justify-content-around" style="background-color: white;">
-         <h1 id="empresa">Young Miko</h1>  
-         
-         <div class=" py-3">
+         <h1 id="empresa">Mercado Libre</h1>  
+         <div id="contenedor-Nav">
             <ul class="nav nav-pills d-flex justify-content-around" id="elementos-nav">
+                <li class="nav-item dropdown-container">
+                    <select id="opciones" class="dropdown" onchange="handleDropdownChange()">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                        <option value="pr">Português</option>
+                    </select>
+                </li>
                <li class="nav-item"><a href="#welcomeSec-Conteiner" class="nav-link active" style="margin-right: 1rem;" id="btn-inicio" data-section="elementos-nav" data-value="main">Inicio</a></li>
                <li class="nav-item"><a href="#planes-titulo" class="nav-link" id="a" data-section="elementos-nav" data-value="packages">Planes <i id="sas" style="opacity: 0;" class=" fa-solid fa-briefcase"></i></a></li>
                <li class="nav-item"><a href="#contact-Title" class="nav-link" id="a" data-section="elementos-nav" data-value="contact">Contacto <i id="sas" style="opacity: 0;" class=" fa-solid fa-envelope"></i></a></li>
-               <li class="nav-item"><a href="#who-titulo" class="nav-link" id="a" data-section="elementos-nav" data-value="who we are">Quienes somos <i id="sas" style="opacity: 0;" class=" fa-solid fa-users">?</i></a></li>
+               <li class="nav-item"><a href="#who-titulo" class="nav-link" id="a" data-section="elementos-nav" data-value="who we are">Quienes somos? <i id="sas" style="opacity: 0;" class=" fa-solid fa-users">?</i></a></li>
             </ul>
            </div>
     </header>
@@ -28,14 +34,6 @@
 
 
     <div id="welcomeSec-Conteiner">
-        <div class="dropdown-container">
-            <label for="opciones" data-section="welcomeSec" data-value="language">Lenguaje</label>
-            <select id="opciones" class="dropdown" onchange="handleDropdownChange()">
-                <option value="es">Español</option>
-                <option value="en">English</option>
-                <option value="pr">Português</option>
-            </select>
-        </div>
      <div class="container d-flex justify-content-center align-items-center" id="slogan-Conteiner">
         <h2 id="slogan" data-section="welcomeSec" data-value="slogan">Eleva tu presencia en línea con nuestro desarrollo web, convirtiendo visitantes en clientes. <i class="fa-solid fa-chart-line"></i> <i class="fa-regular fa-face-laugh-wink"></i></h2>
      </div>
@@ -247,7 +245,7 @@
               <br>
               Nos encontramos ubicados en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajamos con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Nuestro equipo está formado por expertos en diseño web, desarrollo de aplicaciones y marketing digital, listos para llevar tu presencia en línea al siguiente nivel.
               <br>
-              En Rennen, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.
+              En Mercado Libre, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.
               </p>
               <p style="line-height: 1.1rem;" ><span style="font-family: Yellowtail, cursive; font-size: x-large;">Franco Busch</span><br> <span style="font-size: small;" data-section="whoWeAre" data-value="signature">Desarrollador</span></p>
           </div>
@@ -317,7 +315,7 @@
                 <a href="#planes-titulo" data-section="footer" data-value="planesIntro">Tipo Folleto/Presentación</a>
             </div>
             <div class="p-2 footer-list">
-                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-users"></i> Rennen</h2>
+                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-users"></i> Mercado Libre</h2>
                 <a href="#who-titulo" data-section="footer" data-value="whoWeAre">Quienes somos?</a>
                 <a href="#comoTrabajamos-titulo" data-section="footer" data-value="howWeWork">Como trabajamos tu Página Web</a>
                 <a href="#planes-titulo" data-section="footer" data-value="packages">Planes</a>
@@ -326,7 +324,7 @@
             </div>
         </div>
         <div class="border-top p-3">
-          <span class="text-body-secondary">© 2024 Rennen, Agencia</span>
+          <span class="text-body-secondary" data-section="footer" data-value="agency">© 2024 Rennen, Agencia</span>
         </div>
     </div>
       </footer>

@@ -7,7 +7,6 @@
     },
 
     "welcomeSec":{
-        "language":"Lenguaje",
         "slogan":"Eleva tu presencia en línea con nuestro desarrollo web, convirtiendo visitantes en clientes. <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
     },
 
@@ -99,6 +98,7 @@
         "howWeWork": "Como trabajamos tu Página Web",
         "packages": "Planes",
         "whyWebSite": "Por qué una página web?",
-        "workProcess": "Proceso de trabajo"
+        "workProcess": "Proceso de trabajo",
+        "agency": "© 2024 Rennen, Agencia"
     }
 }

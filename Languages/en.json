@@ -7,7 +7,6 @@
     },
 
     "welcomeSec": {
-        "language": "Language",
         "slogan": "Elevate your online presence with our web development, turning visitors into customers. <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
     },
 
@@ -99,6 +98,7 @@
         "howWeWork": "How we work your Website",
         "packages": "Plans",
         "whyWebSite": "Why a website?",
-        "workProcess": "Work Process"
+        "workProcess": "Work Process",
+        "agency": "© 2024 Rennen, Agency"
     }
 }
