@@ -180,6 +180,21 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         transition: 0.5s;
         opacity: 1 !important;
     }
+}#welcomeSec-Conteiner {
+    background-image: url('/Css/img/backgroundsec1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}#welcomeSec-Conteiner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 
