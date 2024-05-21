@@ -177,7 +177,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         opacity: 1 !important;
     }
 }#welcomeSec-Conteiner {
-    background-image: url('../Css/img/backgroundsec1.jpg') !important;
+    background-image: url('../Css/img/backgroundsec1.png') !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -315,6 +315,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 
 
 
+
 #comoTrabajamos-titulo h2{
     margin-bottom: 1rem;
     font-weight: bold;
@@ -325,11 +326,11 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     border-radius: 1rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }#comoTrabajamos-desc{
     font-weight: 500;
     font-size: large;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 #comoTrabajamos-Cards{
     margin-top: 1rem;
