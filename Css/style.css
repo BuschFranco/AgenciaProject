@@ -143,15 +143,14 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }@media (max-width: 720px) {
     #elementos-nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }#contenedor-Nav{
-        padding: 0;
+        padding: 1rem;
     }#elementos-nav li:nth-child(4) {
         display: none;
-    }.dropdown-container {
-        margin-top: 10px;
-        margin-left: 1rem;
+    }#elementos-nav li:nth-child(3) {
+        display: none;
     }
 }
 
