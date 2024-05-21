@@ -105,7 +105,6 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 .dropdown-container {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
 }
 
 /* Estilo para el dropdown */
@@ -113,17 +112,10 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     appearance: none; /* Oculta la flecha predeterminada del navegador */
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
-    font-size: 1rem;
-    font-family: inherit;
+    padding: 5px;
     cursor: pointer;
-    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="black" stroke-width=".5" d="M2 0L0 2.5h4z"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 0.5rem center;
-    background-size: 0.65rem auto;
 }
 
 /* Estilo para eliminar las flechas en Firefox */
@@ -132,6 +124,9 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }#opciones{
     border: none;
     font-size: large;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
 }
 /* Para mejorar la apariencia en móviles y tablets */
 @media (max-width: 991.98px) {
@@ -154,6 +149,8 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         padding: 0;
     }#elementos-nav li:nth-child(4) {
         display: none;
+    }.dropdown-container {
+        margin-top: 10px;
     }
 }
 
