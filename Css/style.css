@@ -154,7 +154,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     }
 }@media (max-width: 450px) {
     #opciones{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }#empresa{
         font-size: 1.3rem;
     }
@@ -207,7 +207,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     background-color: #443563;
 }@media (max-width: 450px) {
     #btn-inicio{
-        font-size: 0.8rem;
+        font-size: 1rem;
     } 
 }
 
