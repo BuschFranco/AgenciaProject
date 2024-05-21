@@ -151,6 +151,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         display: none;
     }.dropdown-container {
         margin-top: 10px;
+        margin-left: 1rem;
     }
 }
 
@@ -196,6 +197,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 
 #btn-inicio{
     background-color: #57437F;
+    margin-right: 1rem;
 }#btn-inicio:hover{
     background-color: #443563;
 }
