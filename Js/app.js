@@ -18,7 +18,7 @@ function transferToForm(description) {
     document.getElementById('mensaje').value = `Estoy interesado en el plan "${description}". Tengo varias ideas para mi página y me gustaría discutirlas en detalle... `;
     
     // Opcional: Desplazarse hasta el formulario
-    document.getElementById('contact-Title').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('contact-desc').scrollIntoView({ behavior: 'smooth' });
   }
 
 
