@@ -319,6 +319,11 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 @media (max-width: 600px) {
     #img-secweb{
         width: 100%;
+    }#secWeb-texto{
+        font-weight:500;
+        font-size: small;
+    }#secWeb-titulo{
+        font-size: 1.3rem;
     }
 }
 
@@ -381,6 +386,15 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     .comoTrabajamos-imagen img{
         width: 100%;
         height: 100%;
+    }#comoTrabajamos-desc{
+        font-weight: 500;
+        font-size: medium;
+        margin-bottom: 3rem;
+    }#comoTrabajamos-titulo h2{
+        margin-bottom: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -485,12 +499,14 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     }.grid-container {
         gap: 0;
     }#proceso-desc{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         font-weight: 500;
         padding: 1rem;
         margin-bottom: 1rem;
     }.proceso-trabajo hr{
         margin-bottom: 1rem;
+    }.proceso-trabajo h2 {
+       font-size: 1.3rem;
     }
 }
 .proceso-trabajo li:hover {
@@ -621,6 +637,10 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         padding: 1rem;
     }#planes-titulo{
         margin-bottom: 1.5rem;
+    }#mantenimiento-desc{
+        font-size: medium;
+    }#planes-titulo h2{
+        font-size: 1.3rem;
     }
 }
 @media (max-width: 1200px) {
@@ -669,10 +689,16 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     animation-fill-mode: both;
 }#who-imagen{
     width: 70vh;
+}#who-text{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(90, 90, 90);
 }
 @media (max-width: 800px) {
     #who-imagen{
         width: 100%;
+    }#who-text{
+        font-size: smaller;
     }
 }
 @media (max-width: 1200px) {
@@ -727,6 +753,11 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         width: 100%;
     }#contact-form{
         width: 100%;
+    }#contact-desc{
+        font-size: large;
+        margin-bottom: 3rem;
+    }#contact-desc2{
+        font-size: larger;
     }
 }
 
