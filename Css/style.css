@@ -484,6 +484,13 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         padding: 0.6rem;
     }.grid-container {
         gap: 0;
+    }#proceso-desc{
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }.proceso-trabajo hr{
+        margin-bottom: 1rem;
     }
 }
 .proceso-trabajo li:hover {
@@ -537,7 +544,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     border-radius: 1rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }.card:hover{
     transition: 0.5s;
     box-shadow:rgb(109, 109, 109) 7px 7px 0px;
@@ -607,6 +614,13 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         transition: 0s;
         box-shadow: 0px 0px 0px black;
         translate: 0px 0px;
+    }#planes-titulo p{
+        font-size: 1.2rem;
+    }#planes-desc2{
+        font-size: 1rem;
+        padding: 1rem;
+    }#planes-titulo{
+        margin-bottom: 1.5rem;
     }
 }
 @media (max-width: 1200px) {
