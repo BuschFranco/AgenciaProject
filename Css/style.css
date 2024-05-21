@@ -152,6 +152,12 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     }#elementos-nav li:nth-child(3) {
         display: none;
     }
+}@media (max-width: 450px) {
+    #opciones{
+        font-size: 1rem;
+    }#empresa{
+        font-size: x-large;
+    }
 }
 
   
@@ -160,7 +166,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     background-color: #57437F;
 }#titulo{
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-left: 2rem;
 }@media (max-width: 400px) {
     #header-zone{
@@ -199,6 +205,10 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
     margin-right: 1rem;
 }#btn-inicio:hover{
     background-color: #443563;
+}@media (max-width: 450px) {
+    #btn-inicio{
+        font-size: 1rem;
+    } 
 }
 
 
