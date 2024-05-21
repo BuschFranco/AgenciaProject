@@ -574,6 +574,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
        margin-bottom: 2rem;
         border-radius: 1.5rem;
          cursor: pointer;
+         text-align: start;
 }#mantenimiento-conteiner:hover {
     transition: 0.5s;
     box-shadow: rgb(109, 109, 109) 7px 7px 0px;
@@ -586,6 +587,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         width: 60vh;
         flex-wrap: wrap;
         padding: 2rem;
+        text-align: center;
     }.card{
         height: 65vh;
         width: 24rem;
