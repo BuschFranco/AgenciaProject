@@ -539,8 +539,8 @@ body{
        font-size: 1.3rem;
     }.proceso-trabajo li::before {
         font-size: 1rem;
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
         margin-right: 10px;
     }
 }
@@ -799,7 +799,7 @@ body{
 #chatbot {
     opacity: 0;
     animation: show5 0.5s forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
     position: fixed;
     bottom: 0;
     right: 0;

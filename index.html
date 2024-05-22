@@ -308,8 +308,9 @@
     </div>
       </footer>
       <div id="chatbot">
-        <div id="chatbot-header" onclick="toggleChat()">
-            <h5 id="chatbot-title" class="text-start"> Asistentes en Linea:</h5>
+        <div id="chatbot-header" onclick="toggleChat()" class="d-flex justify-content-between align-items-center">
+            <h5 id="chatbot-title" class="text-start" data-section="chatbot" data-value="title">Asistentes en Linea</h5>
+            <p class="m-0">🟢</p>
         </div>
         <div id="chatbot-body" class="visible">
             <iframe id="chatbot-chat"

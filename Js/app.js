@@ -12,6 +12,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+window.onload = checkResolution;
+window.onresize = checkResolution;
+
+function checkResolution() {
+  var screenWidth = window.innerWidth;
+  var myDiv = document.getElementById('chatbot-body');
+  
+  if (screenWidth < 800) {
+      myDiv.classList.remove('visible');
+      myDiv.classList.add('hidden');
+  } else {
+      myDiv.classList.remove('hidden');
+      myDiv.classList.add('visible');
+  }
+}
+
 function toggleChat() {
   const chatBody = document.getElementById('chatbot-body');
   if (chatBody.classList.contains('hidden')) {

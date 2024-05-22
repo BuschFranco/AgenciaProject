@@ -79,6 +79,10 @@
             "sent":"<i class='fa-regular fa-envelope'></i> Enviar"
         },
         
+        "chatbot": {
+            "title": "Assistente On-line"
+        },
+        
         "footer":{
             "contactus": "<i class='fa-solid fa-envelope'></i> Contato",
             "contactForm": "Formulário de Contato",

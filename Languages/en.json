@@ -79,6 +79,10 @@
         "sent": "<i class='fa-regular fa-envelope'></i> Send"
     },
 
+    "chatbot": {
+        "title": "Online Assistant"
+    },
+
     "footer": {
         "contactus": "<i class='fa-solid fa-envelope'></i> Contact",
         "contactForm": "Contact Form",
