@@ -3,11 +3,11 @@
         "main": "Início",
         "packages": "Planos <i id='sas' style='opacity: 0;' class=' fa-solid fa-briefcase'></i>",
         "contact": "Contato <i id='sas' style='opacity: 0;' class=' fa-solid fa-envelope'></i>",
-        "who we are": "Quem somos? <i id='sas' style='opacity: 0;' class=' fa-solid fa-users'>?</i>"
+        "who we are": "¿Uma página web?"
     },
 
     "welcomeSec":{
-        "slogan":"Eleve sua presença online com nosso desenvolvimento web, convertendo visitantes em clientes. <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+        "slogan":"Eleve sua presença online com nosso desenvolvimento web, convertendo visitantes em clientes <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
     },
 
     "secWeb": {
@@ -17,7 +17,7 @@
 
     "comoTrabajamos":{
         "title":"Seu Site Personalizado",
-        "description":"Nosso foco é projetar sites personalizados para fornecer a cada usuário uma experiência única. Como especialistas em design web, nos dedicamos a criar sites adaptáveis e escaláveis que funcionam perfeitamente em qualquer dispositivo, seja um celular, tablet ou computador desktop. Além disso, incorporamos recursos interativos e personalizados para melhorar a experiência do usuário, garantindo sua satisfação e engajamento.",
+        "description":"Em <span style='font-weight: bold;'>Rennen</span> nos encarregamos de desenvolver sites adaptados às necessidades de cada usuário, proporcionando-lhe uma experiência única. Como especialistas em design web, dedicamo-nos a criar sites adaptáveis e escaláveis que funcionam de maneira ideal em qualquer dispositivo, seja um telefone móvel, um tablet ou um computador de mesa. Além disso, incorporamos características interativas e personalizadas para melhorar a experiência do usuário, garantindo assim sua satisfação e compromisso.",
         "responsiveDesc":"Seu site <span>deve se adaptar a todos os dispositivos</span> para uma experiência de navegação ideal. Garantimos que cada elemento seja exibido corretamente em qualquer tela, mantendo a estrutura e a ordem para uma visualização perfeita.",
         "manageable":"<i class='fa-solid fa-sliders'></i> Gerenciável",
         "manageableDesc":"Uma vez online, você poderá gerenciar seu site facilmente. Essa vantagem é crucial, pois muitas vezes são necessárias atualizações periódicas, como ajustes de preços, novos elementos ou atualização de conteúdo.",
@@ -50,21 +50,16 @@
         "description2":"(Os preços são representativos, podem variar dependendo da quantidade de elementos solicitados para a página)",
         "card1Title":"<i class='fa-solid fa-handshake-angle'></i> Site Corporativo",
         "card1Desc":"Sites corporativos são sites projetados para representar uma empresa online e comunicar sua identidade, produtos, serviços e valores ao seu público. Eles geralmente incluem informações sobre a história da empresa, sua missão e visão, bem como detalhes de contato e links para suas redes sociais. Esses sites também podem incluir seções sobre seus produtos ou serviços, depoimentos de clientes e/ou oportunidades de emprego. Seu objetivo principal é fortalecer a presença online da empresa e melhorar sua imagem corporativa.",
-        "card1Price":"$200 USD / $200.000 ARS",
         "card2Title":"<i class='fa-solid fa-bullseye'></i> Landind Page",
         "card2Desc":"Uma página de destino, ou landing page, é uma página da web projetada especificamente para converter visitantes em clientes em potencial. Essas páginas geralmente fazem parte de uma estratégia de marketing digital e são otimizadas para uma ação específica, como preencher um formulário, fazer uma compra ou baixar um recurso. Além disso, são cuidadosamente estruturadas para chamar a atenção do usuário e guiá-lo para a ação desejada por meio de um design atraente, conteúdo relevante e chamadas claras para a ação.",
-        "card2Price":"$90 USD / $90.000 ARS",
         "card3Title":"<i class='fa-solid fa-cart-shopping'></i> Loja Online",
         "card3Desc":"Lojas online, também conhecidas como lojas virtuais ou lojas online, são sites projetados para permitir que os usuários comprem produtos ou serviços diretamente pela Internet. Essas lojas geralmente oferecem uma ampla variedade de produtos, que podem variar de roupas e eletrônicos a serviços digitais e assinaturas. Além disso, permitem que os clientes façam compras de forma conveniente e rápida, sem precisar sair de casa e a qualquer momento do dia.",
-        "card3Price":"$250 USD / $250.000 ARS",
         "card4Title":"<i class='fa-solid fa-user'></i> Estilo Folheto/Apresentação",
         "card4Desc":"São sites que apresentam informações de forma semelhante a um folheto impresso. Esses sites geralmente contêm todas as informações relevantes em uma única página. As páginas de estilo folheto geralmente são usadas para promover um produto ou serviço específico, ou para apresentar informações concisas sobre uma empresa ou evento. Eles geralmente têm um design atraente e visualmente impactante, com um foco claro no conteúdo principal que se deseja comunicar.",
-        "card4Price":"$80 USD / $80.000 ARS",
         "serviceMant":"Manutenção",
         "serviceMantDesc":"Oferecemos um serviço mensal opcional de manutenção que garante o monitoramento constante de seu site 24 horas por dia. Cuidamos para que seu site funcione corretamente e de forma ótima, fazendo os ajustes e atualizações necessários para mantê-lo em perfeito estado. Com nosso serviço, você pode ficar tranquilo sabendo que seu site está em boas mãos e funcionando como deveria a todo momento.",
         "card5Title":"<i class='fa-solid fa-gears'></i> Pacote de Serviço de Manutenção",
-        "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Monitoramento constante:</span> Nossa equipe monitorará seu site em busca de qualquer problema ou falha técnica, garantindo seu funcionamento correto o tempo todo.<span style='color: #8e00d4; font-weight: 500;'><br> Suporte técnico prioritário:</span> Você receberá atendimento personalizado e prioritário em caso de qualquer problema técnico ou consulta relacionada ao seu site.<span style='color: #8e00d4; font-weight: 500;'><br> Backup automático:</span> Fazemos backups periódicos de seu site para proteger seus dados em caso de perda ou dano.",
-        "card5Price":"$30 USD / $30.000 ARS"
+        "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Monitoramento constante:</span> Nossa equipe monitorará seu site em busca de qualquer problema ou falha técnica, garantindo seu funcionamento correto o tempo todo.<span style='color: #8e00d4; font-weight: 500;'><br> Suporte técnico prioritário:</span> Você receberá atendimento personalizado e prioritário em caso de qualquer problema técnico ou consulta relacionada ao seu site.<span style='color: #8e00d4; font-weight: 500;'><br> Backup automático:</span> Fazemos backups periódicos de seu site para proteger seus dados em caso de perda ou dano."
     },
 
     "whoWeAre":{

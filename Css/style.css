@@ -191,6 +191,8 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
+
+    box-shadow: rgba(255, 255, 255, 0.712) 0px 10px 40px;
 }#welcomeSec-Conteiner::before {
     content: "";
     position: absolute;
@@ -215,13 +217,7 @@ body{
 }
 
 
-
-#welcomeSec-Conteiner{
-    background-position: center;
-    background-size: cover;
-
-    box-shadow: rgba(0, 0, 0, 0.205) 0px 10px 20px;
-}.dropdown-container {
+.dropdown-container {
     display: flex;
     align-items: center;
     margin-right: 2rem;
@@ -337,6 +333,7 @@ body{
     margin-bottom: 1rem;
     font-weight: bold;
     margin-top: 1rem;
+    text-shadow: #00000083 0px 5px 1px;
 }#comoTrabajamos-titulo hr{
     width: 10rem;
     border: 2px solid white;
@@ -664,6 +661,7 @@ body{
     font-weight: bold;
     margin-bottom: 1rem;
     padding-top: 3rem;
+    text-shadow: #00000083 0px 5px 1px;
 }#who-titulo hr{
     width: 10rem;
     border: 2px solid rgb(255, 255, 255);
@@ -800,7 +798,9 @@ body{
     bottom: 0;
     right: 0;
     width: 23%;
-    border: 1px solid #cccccc7a;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
     border-radius: 8px 10px 0 0;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -816,8 +816,9 @@ body{
 
 #chatbot-title {
     margin: 0;
-    padding: 0.3rem;
+    padding: 0.2rem;
     font-weight: 400;
+    text-shadow: #00000083 0px 3px 1px;
 }
 
 #chatbot-body {

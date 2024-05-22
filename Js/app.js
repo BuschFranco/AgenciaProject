@@ -43,7 +43,7 @@ function transferToForm(description) {
   const textsToChange = document.querySelectorAll("[data-section]");
   //función que devuelve el valor de la lista
   async function changeLanguage(language){
-    const requestJson = await fetch(`./Languages/${language}.json`);
+    const requestJson = await fetch(`../Languages/${language}.json`);
     const texts = await requestJson.json();
 
     for(const textToChange of textsToChange)
