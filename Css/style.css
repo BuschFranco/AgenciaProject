@@ -792,7 +792,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 #chatbot {
     opacity: 0;
     animation: show5 0.5s forwards;
-    animation-delay: 4s;
+    animation-delay: 3s;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -850,7 +850,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
         width: 40%; 
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #chatbot {
         width: 50%; /* Ajusta el ancho para tablets */
     }
@@ -861,7 +861,7 @@ background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(
 }
 
 /* Para celulares */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     #chatbot {
         width: 100%; /* Ajusta el ancho para celulares */
         border-radius: 0px 0px 0 0;
