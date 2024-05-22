@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function toggleChat() {
+  const chatBody = document.getElementById('chatbot-body');
+  if (chatBody.classList.contains('hidden')) {
+      chatBody.classList.remove('hidden');
+      chatBody.classList.add('visible');
+  } else {
+      chatBody.classList.remove('visible');
+      chatBody.classList.add('hidden');
+  }
+}
+
 
 function transferToForm(description) {
     // Transferir la información al formulario
@@ -45,5 +56,17 @@ function transferToForm(description) {
 
       console.log(texts["comoTrabajamos"]);
   }
+
+    window.embeddedChatbotConfig = {
+    chatbotId: "2JOdCymMabN1vCiyUg7ZO",
+    domain: "www.chatbase.co"
+    }
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="2JOdCymMabN1vCiyUg7ZO"
+    domain="www.chatbase.co"
+    defer
+
+
+   
 
   
