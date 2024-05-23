@@ -911,3 +911,13 @@ body{
     color: black;
     transition: 0.4s;
 }
+@media (max-width: 1400px) {
+    #foot-empresa{
+        display: none;
+    }
+}
+@media (max-width: 990px) {
+    #foot-empresa{
+        display: block;
+    }
+}
