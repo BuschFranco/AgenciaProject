@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.onload = checkResolution;
-window.onresize = checkResolution;
 
 function checkResolution() {
   var screenWidth = window.innerWidth;
