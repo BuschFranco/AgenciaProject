@@ -192,7 +192,7 @@ body{
     height: 100vh;
     position: relative;
 
-    box-shadow: rgba(255, 255, 255, 0.712) 0px 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 10px 30px;
 }#welcomeSec-Conteiner::before {
     content: "";
     position: absolute;
