@@ -58,20 +58,31 @@ function transferToForm(description) {
 
   const textsToChange = document.querySelectorAll("[data-section]");
   //función que devuelve el valor de la lista
-  async function changeLanguage(language){
-    const requestJson = await fetch(`../Languages/${language}.json`);
-    const texts = await requestJson.json();
+  async function changeLanguage(language) {
+    try {
+        console.log(`Changing language to: ${language}`);
+        const requestJson = await fetch(`/Languages/${language}.json`);
+        console.log(`Fetch status: ${requestJson.status}`); // Log status
 
-    for(const textToChange of textsToChange)
-      {
-        const section = textToChange.dataset.section;
-        const value = textToChange.dataset.value;
+        if (!requestJson.ok) {
+            throw new Error(`HTTP error! status: ${requestJson.status}`);
+        }
 
-        textToChange.innerHTML = texts[section][value];
-      }
+        const texts = await requestJson.json();
+        console.log("Texts loaded successfully:", texts); // Log loaded texts
 
-      console.log(texts["comoTrabajamos"]);
-  }
+        for (const textToChange of textsToChange) {
+            const section = textToChange.dataset.section;
+            const value = textToChange.dataset.value;
+            console.log(`Updating section: ${section}, value: ${value}`); // Log sections and values
+            textToChange.innerHTML = texts[section][value];
+        }
+
+        console.log(texts["comoTrabajamos"]);
+    } catch (error) {
+        console.error("Error loading language file:", error);
+    }
+}
 
     window.embeddedChatbotConfig = {
     chatbotId: "2JOdCymMabN1vCiyUg7ZO",
