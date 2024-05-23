@@ -61,7 +61,7 @@ function transferToForm(description) {
   async function changeLanguage(language) {
     try {
         console.log(`Changing language to: ${language}`);
-        const requestJson = await fetch(`/Languages/${language}.json`);
+        const requestJson = await fetch(`./Languages/${language}.json`);
         console.log(`Fetch status: ${requestJson.status}`); // Log status
 
         if (!requestJson.ok) {
