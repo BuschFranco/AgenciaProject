@@ -3,7 +3,7 @@
         "main": "Inicio",
         "packages": "Planes <i id='sas' style='opacity: 0;' class=' fa-solid fa-briefcase'></i>",
         "contact": "Contacto <i id='sas' style='opacity: 0;' class=' fa-solid fa-envelope'></i>",
-        "who we are": "¿Una página web?"
+        "who we are": "¿Una página web? <i id='sas' style='opacity: 0;' class='fa-solid fa-pager'></i>"
     },
 
     "welcomeSec":{

@@ -3,7 +3,7 @@
         "main": "Home",
         "packages": "Plans <i id='sas' style='opacity: 0;' class=' fa-solid fa-briefcase'></i>",
         "contact": "Contact <i id='sas' style='opacity: 0;' class=' fa-solid fa-envelope'></i>",
-        "who we are": "A Web Site?"
+        "who we are": "A Web Site? <i id='sas' style='opacity: 0;' class='fa-solid fa-pager'></i>"
     },
 
     "welcomeSec": {
