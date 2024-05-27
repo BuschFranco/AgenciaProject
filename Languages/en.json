@@ -7,7 +7,7 @@
     },
 
     "welcomeSec": {
-        "slogan": "Elevate your online presence with our web development, turning visitors into customers <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+        "slogan": "Boost your online presence with our development, turning visitors into customers <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
     },
 
     "secWeb": {
@@ -17,7 +17,7 @@
 
     "comoTrabajamos": {
         "title": "Your Custom Website",
-        "description": "At <span style='font-weight: bold;'>Rennen</span>, we are dedicated to developing websites tailored to each user's needs, providing them with a unique experience. As web design specialists, we focus on creating adaptable and scalable sites that function optimally on any device, whether it be a mobile phone, a tablet, or a desktop computer. Additionally, we incorporate interactive and personalized features to enhance the user experience, ensuring their satisfaction and engagement.",
+        "description": "At <span style='font-weight: bold;'>Intellidev</span>, we are dedicated to developing websites tailored to each user's needs, providing them with a unique experience. As web design specialists, we focus on creating adaptable and scalable sites that function optimally on any device, whether it be a mobile phone, a tablet, or a desktop computer. Additionally, we incorporate interactive and personalized features to enhance the user experience, ensuring their satisfaction and engagement.",
         "responsiveDesc": "Your website <span>must adapt to all devices</span> for an optimal browsing experience. We ensure that every element looks good on any screen, maintaining structure and order for a perfect display.",
         "manageable": "<i class='fa-solid fa-sliders'></i> Manageable",
         "manageableDesc": "Once online, you can easily manage your website. This advantage is crucial, as periodic updates are often needed, such as price adjustments, new items, or content updates.",
@@ -64,7 +64,7 @@
 
     "whoWeAre": {
         "title": "Who are we?",
-        "description": "We are a startup dedicated to developing websites both nationally and internationally, providing creative and effective solutions for your needs. Our approach focuses on offering a quality service at an affordable price, ensuring that each client receives a personalized solution that meets their specific requirements. Whether you need a website for your business, personal project, or online store, we are here to help you achieve your goals. We are located in Argentina, Buenos Aires City. From here, we work with passion, dedication, and professionalism to offer you the best results. Our team consists of experts in web design, application development, and digital marketing, ready to take your online presence to the next level. At Rennen, we believe in the importance of collaboration and constant communication with our clients. We are committed to working hand in hand with you to understand your needs and offer solutions that exceed your expectations.",
+        "description": "We are a startup dedicated to developing websites both nationally and internationally, providing creative and effective solutions for your needs. Our approach focuses on offering a quality service at an affordable price, ensuring that each client receives a personalized solution that meets their specific requirements. Whether you need a website for your business, personal project, or online store, we are here to help you achieve your goals. We are located in Argentina, Buenos Aires City. From here, we work with passion, dedication, and professionalism to offer you the best results. Our team consists of experts in web design, application development, and digital marketing, ready to take your online presence to the next level. At Intellidev, we believe in the importance of collaboration and constant communication with our clients. We are committed to working hand in hand with you to understand your needs and offer solutions that exceed your expectations.",
         "signature": "Developer"
     },
 

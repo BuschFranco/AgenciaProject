@@ -7,7 +7,7 @@
     },
 
     "welcomeSec":{
-        "slogan":"Eleve sua presença online com nosso desenvolvimento web, convertendo visitantes em clientes <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+        "slogan":"Eleve sua presença online com nosso desenvolvimento, convertendo visitantes em clientes <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
     },
 
     "secWeb": {
@@ -17,7 +17,7 @@
 
     "comoTrabajamos":{
         "title":"Seu Site Personalizado",
-        "description":"Em <span style='font-weight: bold;'>Rennen</span> nos encarregamos de desenvolver sites adaptados às necessidades de cada usuário, proporcionando-lhe uma experiência única. Como especialistas em design web, dedicamo-nos a criar sites adaptáveis e escaláveis que funcionam de maneira ideal em qualquer dispositivo, seja um telefone móvel, um tablet ou um computador de mesa. Além disso, incorporamos características interativas e personalizadas para melhorar a experiência do usuário, garantindo assim sua satisfação e compromisso.",
+        "description":"Em <span style='font-weight: bold;'>Intellidev</span> nos encarregamos de desenvolver sites adaptados às necessidades de cada usuário, proporcionando-lhe uma experiência única. Como especialistas em design web, dedicamo-nos a criar sites adaptáveis e escaláveis que funcionam de maneira ideal em qualquer dispositivo, seja um telefone móvel, um tablet ou um computador de mesa. Além disso, incorporamos características interativas e personalizadas para melhorar a experiência do usuário, garantindo assim sua satisfação e compromisso.",
         "responsiveDesc":"Seu site <span>deve se adaptar a todos os dispositivos</span> para uma experiência de navegação ideal. Garantimos que cada elemento seja exibido corretamente em qualquer tela, mantendo a estrutura e a ordem para uma visualização perfeita.",
         "manageable":"<i class='fa-solid fa-sliders'></i> Gerenciável",
         "manageableDesc":"Uma vez online, você poderá gerenciar seu site facilmente. Essa vantagem é crucial, pois muitas vezes são necessárias atualizações periódicas, como ajustes de preços, novos elementos ou atualização de conteúdo.",
@@ -64,7 +64,7 @@
 
     "whoWeAre":{
         "title":"Quem Somos?",
-        "description": "Somos um empreendimento dedicado ao desenvolvimento de sites tanto nacional quanto internacionalmente, fornecendo soluções criativas e eficazes para suas necessidades. Nosso foco é oferecer um serviço de qualidade a um preço acessível, garantindo que cada cliente receba uma solução personalizada que atenda às suas necessidades específicas. Seja você precisa de um site para sua empresa, projeto pessoal ou loja online, estamos aqui para ajudá-lo a alcançar seus objetivos. Estamos localizados na Argentina, Ciudad de Buenos Aires. A partir daqui, trabalhamos com paixão, dedicação e profissionalismo para oferecer os melhores resultados. Nossa equipe é composta por especialistas em design web, desenvolvimento de aplicativos e marketing digital, prontos para levar sua presença online para o próximo nível. Na Rennen, acreditamos na importância da colaboração e comunicação constante com nossos clientes. Comprometemo-nos a trabalhar em estreita colaboração consigo para entender as suas necessidades e oferecer soluções que excedam as suas expectativas.",
+        "description": "Somos um empreendimento dedicado ao desenvolvimento de sites tanto nacional quanto internacionalmente, fornecendo soluções criativas e eficazes para suas necessidades. Nosso foco é oferecer um serviço de qualidade a um preço acessível, garantindo que cada cliente receba uma solução personalizada que atenda às suas necessidades específicas. Seja você precisa de um site para sua empresa, projeto pessoal ou loja online, estamos aqui para ajudá-lo a alcançar seus objetivos. Estamos localizados na Argentina, Ciudad de Buenos Aires. A partir daqui, trabalhamos com paixão, dedicação e profissionalismo para oferecer os melhores resultados. Nossa equipe é composta por especialistas em design web, desenvolvimento de aplicativos e marketing digital, prontos para levar sua presença online para o próximo nível. Na Intellidev, acreditamos na importância da colaboração e comunicação constante com nossos clientes. Comprometemo-nos a trabalhar em estreita colaboração consigo para entender as suas necessidades e oferecer soluções que excedam as suas expectativas.",
         "signature":"Desenvolvedor"
         },
 
