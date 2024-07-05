@@ -405,10 +405,7 @@ body{
 
 
 
-#proceso-container {
-    margin-left: 6%;
-    margin-right: 8%;
-}.proceso-trabajo-container {
+.proceso-trabajo-container {
     display: flex;
     justify-content: center;
     align-items: center;
