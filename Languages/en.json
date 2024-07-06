@@ -48,6 +48,7 @@
     "planes": {
         "title": "Plans",
         "description": "Discover our plans and learn about the different types of websites. Use it as a guide to make the best decision!",
+        "hostdom":"<span style='color: #8e00d4;'>1</span> year of <span style='color: #8e00d4;'>Hosting and Free Domain</span> included in each plan",
         "description2": "(Prices are representative; they may vary depending on the number of elements requested for the page)",
         "card1Title": "<i class='fa-solid fa-handshake-angle'></i> Corporate Web",
         "card1Desc": "Corporate websites are sites designed to represent a company online and communicate its identity, products, services, and values to its audience. They usually include information about the company's history, mission, and vision, as well as contact details and links to social media. These websites can also include sections on their products or services, customer testimonials, and/or job opportunities. Their main goal is to strengthen the company's online presence and improve its corporate image.",

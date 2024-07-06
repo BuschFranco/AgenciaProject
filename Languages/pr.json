@@ -48,6 +48,7 @@
     "planes":{
         "title":"Planos",
         "description":"Descubra nossos planos e conheça os diferentes tipos de sites. Use-o como um guia para tomar a melhor decisão!",
+        "hostdom":"<span style='color: #8e00d4;'>1</span> ano de <span style='color: #8e00d4;'>Hospedagem e Domínio Gratuito</span> incluso em cada plano",
         "description2":"(Os preços são representativos, podem variar dependendo da quantidade de elementos solicitados para a página)",
         "card1Title":"<i class='fa-solid fa-handshake-angle'></i> Site Corporativo",
         "card1Desc":"Sites corporativos são sites projetados para representar uma empresa online e comunicar sua identidade, produtos, serviços e valores ao seu público. Eles geralmente incluem informações sobre a história da empresa, sua missão e visão, bem como detalhes de contato e links para suas redes sociais. Esses sites também podem incluir seções sobre seus produtos ou serviços, depoimentos de clientes e/ou oportunidades de emprego. Seu objetivo principal é fortalecer a presença online da empresa e melhorar sua imagem corporativa.",
