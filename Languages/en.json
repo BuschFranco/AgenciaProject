@@ -18,6 +18,7 @@
     "comoTrabajamos": {
         "title": "Your Custom Website",
         "description": "At <span style='font-weight: bold;'>Intellidev</span>, we are dedicated to developing websites tailored to each user's needs, providing them with a unique experience. As web design specialists, we focus on creating adaptable and scalable sites that function optimally on any device, whether it be a mobile phone, a tablet, or a desktop computer. Additionally, we incorporate interactive and personalized features to enhance the user experience, ensuring their satisfaction and engagement.",
+        "boton":"Tell us about your project",
         "responsiveDesc": "Your website <span>must adapt to all devices</span> for an optimal browsing experience. We ensure that every element looks good on any screen, maintaining structure and order for a perfect display.",
         "manageable": "<i class='fa-solid fa-sliders'></i> Manageable",
         "manageableDesc": "Once online, you can easily manage your website. This advantage is crucial, as periodic updates are often needed, such as price adjustments, new items, or content updates.",

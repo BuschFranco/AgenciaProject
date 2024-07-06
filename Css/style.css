@@ -350,6 +350,16 @@ body{
     font-weight: 500;
     font-size: large;
     margin-bottom: 3rem;
+}#btn-comotrabajamos{
+    border-radius: 1vh;
+    padding: 0.3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.342);
+}#btn-comotrabajamos:hover{
+    color: white;
+    background-color: #57437F;
 }
 #comoTrabajamos-Cards{
     margin-top: 1rem;
